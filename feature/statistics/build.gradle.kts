@@ -53,13 +53,13 @@ dependencies {
     implementation(project(Module.database))
 
     // RamCosta Navigation
-    implementation("io.github.raamcosta.compose-destinations:core:1.5.20-beta")
-    implementation("androidx.work:work-runtime-ktx:2.8.1")
+    implementation("io.github.raamcosta.compose-destinations:core:1.10.2")
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
     implementation(project(mapOf("path" to ":feature:home")))
-    ksp("io.github.raamcosta.compose-destinations:ksp:1.5.15-beta")
+    ksp("io.github.raamcosta.compose-destinations:ksp:1.10.2")
 
     // Navigation animation
-    implementation("com.google.accompanist:accompanist-navigation-animation:0.24.7-alpha")
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.34.0")
 
     // charts
     implementation("com.github.MahmoudIbrahim3:android-compose-charts:1.2.2")

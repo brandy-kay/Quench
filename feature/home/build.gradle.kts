@@ -53,11 +53,11 @@ dependencies {
     implementation(project(Module.database))
 
     // RamCosta Navigation
-    implementation("io.github.raamcosta.compose-destinations:core:1.5.20-beta")
-    ksp("io.github.raamcosta.compose-destinations:ksp:1.5.15-beta")
+    implementation("io.github.raamcosta.compose-destinations:core:1.10.2")
+    ksp("io.github.raamcosta.compose-destinations:ksp:1.10.2")
 
     // Navigation animation
-    implementation("com.google.accompanist:accompanist-navigation-animation:0.24.7-alpha")
+    implementation("com.google.accompanist:accompanist-navigation-animation:0.34.0")
 }
 
 kotlin {
